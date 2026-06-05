@@ -1,0 +1,22 @@
+@layer base {
+  html, body {
+    overscroll-behavior: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    user-select: none;
+  }
+
+  *, button, a, svg {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  button, a {
+    user-select: none;
+  }
+
+  input, textarea, [contenteditable] {
+    user-select: text;
+  }
+}
